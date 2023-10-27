@@ -1,0 +1,27 @@
+{
+    "name": "web-idler/cache",
+    "description": "Cache for webman from laravel",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.2",
+        "illuminate/cache": "^11.0|^10.0",
+        "illuminate/filesystem": "^11.0|^10.0"
+    },
+    "require-dev": {
+        "workerman/webman-framework": "^1.5",
+        "illuminate/redis": "^11.0|^10.0"
+    },
+    "authors": [
+        {
+            "name": "Ken Po",
+            "email": "webman1688@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WebIdler\\Cache\\": "src/"
+        }
+    }
+}

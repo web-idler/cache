@@ -2,7 +2,7 @@
     "name": "web-idler/cache",
     "description": "Cache for webman from laravel",
     "type": "library",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "require": {
         "php": "^8.2",
         "illuminate/cache": "^11.0|^10.0",
